@@ -1,0 +1,145 @@
+*{
+    color: #1a365d;
+    font-family: garamond, serif;
+}
+
+
+body{
+    background-color: #d8f4ff;
+  
+}
+
+
+nav {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+
+nav a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.inicio {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px;
+    h1 {
+        font-size: 60px;
+    }
+    p {
+        font-size: 50px;
+        font-style: italic;
+        margin: 5px;
+    }
+    .img {
+    width: 1000px;
+    height: auto;
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+    margin: 0px;
+}
+
+
+.all {
+    width: 90%;
+    margin: 20px auto;
+    border: 3px solid #f0d436;
+    border-radius: 25px;
+    padding: 0px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #0143a0;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px;
+    border-radius: 23px 23px 0px 0px;
+    .sobre{
+        color: #d8f4ff;
+        text-decoration: underline;
+        margin: 10px;
+    }
+    .inicio, .contato {
+        color: #f0d436;
+        text-decoration: none;
+        margin: 10px;
+    }
+}
+
+.parteDeCima {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #1a365d;
+    padding-bottom: 15px;
+}
+
+
+.logo {
+    width: 100px;
+
+    height: auto;
+}
+
+
+h1 {
+    margin: 5px;
+    font-size: 62px;
+    color: #1a365d;
+}
+
+section {
+    padding: 30px;
+}
+
+section h2 {
+    font-size: 35px;
+    margin: 10px 0;
+    color: #1a365d;
+}
+
+
+footer {
+    background-color: #0143a0;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 0px, 0px, 23px, 23px;
+}
+
+
+footer p {
+    color: white;
+    font-size: 18px;
+    margin: 0;  
+    border-radius: 0px, 0px, 23px, 23px;
+}
+
+.proc {
+    border-top: 3px solid #0143a0;
+}
+
+.topic {
+    font-size: 25px;
+}
